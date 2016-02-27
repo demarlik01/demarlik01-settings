@@ -40,6 +40,8 @@ set backspace=2
 set modeline
 set encoding=utf-8 fileencodings=utf-8,cp949,ucs-bom,korea,iso-2022-kr
 set mouse=a
+set clipboard=unnamed
+
 syntax on
 
 " shortcuts
@@ -58,7 +60,23 @@ nnoremap <leader>a i
 nnoremap <leader>p :CtrlP<CR>
 vnoremap <C-Insert> "+y
 vnoremap <S-Insert> "+gP
+nnoremap <MiddleMouse> <Nop>
+nnoremap <2-MiddleMouse> <Nop>
+nnoremap <3-MiddleMouse> <Nop>
+nnoremap <4-MiddleMouse> <Nop>
+inoremap <MiddleMouse> <Nop>
+inoremap <2-MiddleMouse> <Nop>
+inoremap <3-MiddleMouse> <Nop>
+inoremap <4-MiddleMouse> <Nop>
 
+nnoremap <MiddleMouse> <Nop>
+nnoremap <2-MiddleMouse> <Nop>
+nnoremap <3-MiddleMouse> <Nop>
+nnoremap <4-MiddleMouse> <Nop>
+inoremap <MiddleMouse> <Nop>
+inoremap <2-MiddleMouse> <Nop>
+inoremap <3-MiddleMouse> <Nop>
+inoremap <4-MiddleMouse> <Nop>
 nnoremap <MiddleMouse> <Nop>
 nnoremap <2-MiddleMouse> <Nop>
 nnoremap <3-MiddleMouse> <Nop>
