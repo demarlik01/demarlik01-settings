@@ -92,3 +92,10 @@ inoremap <4-MiddleMouse> <Nop>
 colorscheme ir_black
 let g:molokai_original = 1
 let g:rehash256 = 1
+
+"search selected text
+vnoremap // y/<C-R>"<CR>
+
+"cvim
+let  g:C_UseTool_cmake    = 'yes' 
+let  g:C_UseTool_doxygen = 'yes' 
