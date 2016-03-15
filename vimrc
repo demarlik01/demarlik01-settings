@@ -43,6 +43,8 @@ set mouse=a
 set clipboard=unnamed
 
 syntax on
+"python syntax on
+let python_highlight_all = 1
 
 " shortcuts
 let mapleader=","
@@ -90,4 +92,3 @@ inoremap <4-MiddleMouse> <Nop>
 colorscheme ir_black
 let g:molokai_original = 1
 let g:rehash256 = 1
-
