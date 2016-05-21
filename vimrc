@@ -41,6 +41,7 @@ set modeline
 set encoding=utf-8 fileencodings=utf-8,cp949,ucs-bom,korea,iso-2022-kr
 set mouse=a
 set clipboard=unnamed
+set hlsearch
 
 syntax on
 "python syntax on
@@ -62,6 +63,7 @@ nnoremap <leader>a i
 nnoremap <leader>p :CtrlP<CR>
 vnoremap <C-Insert> "+y
 vnoremap <S-Insert> "+gP
+vnoremap // y/<C-R>"<CR>
 nnoremap <MiddleMouse> <Nop>
 nnoremap <2-MiddleMouse> <Nop>
 nnoremap <3-MiddleMouse> <Nop>
