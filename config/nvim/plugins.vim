@@ -14,6 +14,7 @@ Plug 'mhinz/vim-signify'
 "syntax
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-surround'
+Plug 'hynek/vim-python-pep8-indent'
 
 "util
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
